@@ -1,8 +1,8 @@
 # Tic_Tac_Toe
-<h1>
+<h2>
 Welcome to my Tic Tac Toe game, built using HTML, CSS, and JavaScript! This project is a simple, yet fully functional implementation of the classic Tic Tac Toe game. It was a fun way to practice and improve my web development skills.
 </h1>
-<h3>
+<h4>
 🌟 Features
 
 Responsive Design: The game is designed to work smoothly on various screen sizes, including desktops, tablets, and smartphones.
