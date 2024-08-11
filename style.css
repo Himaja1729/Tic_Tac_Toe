@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra:wght@400..700&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Calistoga&family=Modern+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    background-image:url("backg.jpeg");
+    color: white;
+}
+nav{
+    /* background: #000000; */
+    
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    /* display: flex; 
+    padding: 0 12px; */
+    font-family: 'Calistoga',sans-serif;
+    
+}
+nav ul
+{
+    list-style-type: none;
+   
+}
+.gamecontainer
+{
+    /* background:lightgoldenrodyellow; */
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.container{
+     display: grid;
+     grid-template-rows: repeat(3,10vw);
+     grid-template-columns: repeat(3,10vw);
+     position: relative;
+}
+.box{
+    border: 5px solid rgb(255, 255, 255);
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover
+{
+    background:rgb(220, 238, 238);
+}
+.gameinfo
+{
+    margin: 100px;
+    padding: 0 34px;
+    font-family: 'Calistoga',sans-serif;
+
+}
+.br-0
+{
+    border-right: 0px;
+
+}
+.bl-0
+{
+    border-left: 0px;
+}
+.bt-0
+{
+    border-top: 0px;
+}
+.bb-0
+{
+    border-bottom: 0px;
+}
+.image img
+{
+    width: 0;
+    transition:  width 1s ease-in-out;
+    padding: 50px;
+}
+#reset
+{
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: rgb(219, 226, 230);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Calistoga',sans-serif;
+    size: 10px;
+    color: black;
+    
+}
+
+h1 {
+    padding: 10px 10px 10px 10px;
+    background-color: cornsilk;
+}
+
+.info {
+    font-size: 25px;
+    font-style: italic;
+}
+@media screen and (max-width: 950px)
+{
+  .gamecontainer
+  {
+    flex-wrap: wrap;
+}
+   .gameinfo
+  {
+    margin-top: 34px;
+  }
+  .gameinfo h1{
+    font-size: 1.5rem;
+
+  }
+  .container{
+    display: grid;
+    grid-template-rows: repeat(3,20vw);
+    grid-template-columns: repeat(3,20vw);
+  }
+}
+.line
+{
+    background: rgb(255, 255, 255);
+    width: 0;
+    height: 4px;
+    position: absolute;
+    background-color: #ffffff;
+    transition: width 1s ease-in-out;
+}
